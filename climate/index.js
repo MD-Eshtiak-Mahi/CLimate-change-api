@@ -95,7 +95,7 @@ newspapers.forEach((newspaper) => {
 });
 
 app.get("/", (req, res) => {
-  res.json("Welcome to my Climate Change News API");
+  res.json("Welcome to my Climate Change News API. use https://climate-api-important-news.herokuapp.com/news to visit  actual data ");
 });
 
 app.get("/news", (req, res) => {
